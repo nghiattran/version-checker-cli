@@ -11,7 +11,7 @@ var plumber = require('gulp-plumber');
 var coveralls = require('gulp-coveralls');
 var babel = require('gulp-babel');
 var del = require('del');
-var isparta = require('isparta');
+// var isparta = require('isparta');
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded

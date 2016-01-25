@@ -4,12 +4,12 @@
   "description": "Node version checker",
   "homepage": "",
   "author": {
-    "name": "NghiaTTran",
+    "name": "Nghia Tran",
     "email": "nghiattran3@gmail.com",
     "url": "https://github.com/nghiattran"
   },
   "bin": {
-    "checker": "lib/index.js"
+    "vc": "lib/index.js"
   },
   "files": [
     "dist"
@@ -23,6 +23,7 @@
     "node-version"
   ],
   "dependencies": {
+    "ansi-styles": "^2.1.0",
     "chalk": "^1.1.1",
     "cli": "^0.11.1",
     "cli-table": "^0.3.1",
