@@ -10,7 +10,7 @@ $ npm install -g version-checker-cli
 
 ## Options
 
-```sh
+```
 $ vc -h
 Usage:
   vc [OPTIONS] [ARGS]
