@@ -1,7 +1,7 @@
 {
-  "name": "version-checker",
+  "name": "version-checker_cli",
   "version": "0.0.0",
-  "description": "Node version checker",
+  "description": "Node version checker cli",
   "homepage": "",
   "author": {
     "name": "Nghia Tran",
@@ -9,7 +9,7 @@
     "url": "https://github.com/nghiattran"
   },
   "bin": {
-    "vc": "lib/index.js"
+    "vc": "dist/index.js"
   },
   "files": [
     "dist"
@@ -23,23 +23,16 @@
     "node-version"
   ],
   "dependencies": {
-    "ansi-styles": "^2.1.0",
     "chalk": "^1.1.1",
     "cli": "^0.11.1",
     "cli-table": "^0.3.1",
     "find-up": "^1.1.0",
-    "lodash": "^4.0.1",
-    "package-json": "^2.0.1",
     "path": "^0.12.7",
-    "semver": "^5.0.1",
-    "semver-diff": "^2.0.0"
+    "version-checker": "^0.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.4.5",
-    "babel-eslint": "^4.1.6",
     "del": "^2.0.2",
-    "eslint-config-xo-space": "^0.7.0",
-    "eslint-plugin-babel": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-coveralls": "^0.1.0",
@@ -49,11 +42,10 @@
     "gulp-mocha": "^2.0.0",
     "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0",
-    "isparta": "^3.0.3",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0"
   },
-  "repository": "nghiattran/checker",
+  "repository": "nghiattran/version-checker-cli",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
