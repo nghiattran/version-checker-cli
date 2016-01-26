@@ -16,11 +16,11 @@ Usage:
   vc [OPTIONS] [ARGS]
 
 Options: 
-  -v, --version          Print version
-  -l, --local            Check local packages
-  -g, --global           Check global packages
-  -p, --prefix           Check global packages
-  -h, --help             Display help and usage details
+  -v, --version          Print version.
+  -l, --local            Check local packages.
+  -g, --global           Check global packages.
+  -p, --prefix           Check packages at you prefix path.
+  -h, --help             Display help and usage details.
 ```
 
 ## License
