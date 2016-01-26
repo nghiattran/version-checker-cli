@@ -1,16 +1,30 @@
-# version-checker [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> version-checker
+# version-checker [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] 
+
+> Check for outdated and lastest node packages.
 
 ## Installation
 
 ```sh
-$ npm install --save version-checker
+$ npm install -g version-checker
+```
+
+## Usage
+
+```sh
+$ vc
+```
+
+## Options
+
+```sh
+$ vc -h
 ```
 
 ## License
 
 MIT © [NghiaTTran]()
 
+<!-- [![Coverage percentage][coveralls-image]][coveralls-url] -->
 
 [npm-image]: https://badge.fury.io/js/version-checker.svg
 [npm-url]: https://npmjs.org/package/version-checker
