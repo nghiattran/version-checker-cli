@@ -1,6 +1,6 @@
 {
   "name": "version-checker-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Node version checker cli",
   "homepage": "",
   "author": {
