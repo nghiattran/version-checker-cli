@@ -17,17 +17,27 @@ $ npm install -g version-checker-cli
 $ vc check --local
 //or
 $ vc check -l
+```
 
+![image](./local.png =100x20)
+
+```
 // Check all global packages
 $ vc check --global
 //or
 $ vc check -g
+```
 
+![image](./global.png =100x20)
+
+```
 // Check all packages in prefix path
 $ vc check --prefix
 //or
 $ vc check -p
 ```
+
+![image](./prefix.png =100x20)
 
 #### Update packages
 
