@@ -8,19 +8,60 @@
 $ npm install -g version-checker-cli
 ```
 
+## Usage
+
+#### Check packages
+
+```
+// Check all local packages
+$ vc check --local
+//or
+$ vc check -l
+
+// Check all global packages
+$ vc check --global
+//or
+$ vc check -g
+
+// Check all packages in prefix path
+$ vc check --prefix
+//or
+$ vc check -p
+```
+
+#### Update packages
+
+```
+// Update all local packages
+$ vc update --local
+//or
+$ vc update -l
+
+// Update all global packages
+$ vc update --global
+//or
+$ vc update -g
+```
+
 ## Options
 
 ```
 $ vc -h
 Usage:
-  vc [OPTIONS] [ARGS]
+  vc [OPTIONS] <command> [ARGS]
 
 Options: 
-  -v, --version          Print version.
-  -l, --local            Check local packages.
-  -g, --global           Check global packages.
-  -p, --prefix           Check packages at you prefix path.
+  -l, --local            Perform locally.
+  -g, --global           Perform globally.
+  -p, --prefix           Perform at your npm prefix path.
+  -a, --all              Perform locally, globally, and at your npm prefix 
+                         path. 
+  -v, --version          Display the current version.
   -h, --help             Display help and usage details.
+
+Commands: 
+  check, update
+
 ```
 
 ## License
