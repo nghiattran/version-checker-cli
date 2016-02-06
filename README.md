@@ -17,17 +17,27 @@ $ npm install -g version-checker-cli
 $ vc check --local
 //or
 $ vc check -l
+```
 
+![image](./local.png)
+
+```
 // Check all global packages
 $ vc check --global
 //or
 $ vc check -g
+```
 
+![image](./global.png)
+
+```
 // Check all packages in prefix path
 $ vc check --prefix
 //or
 $ vc check -p
 ```
+
+![image](./prefix.png)
 
 #### Update packages
 
@@ -77,4 +87,4 @@ MIT © [NghiaTTran]()
 [daviddm-image]: https://david-dm.org/nghiattran/version-checker-cli.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/nghiattran/version-checker-cli
 [coveralls-image]: https://coveralls.io/repos/nghiattran/version-checker-cli/badge.svg
-[coveralls-url]: https://coveralls.io/r/nghiattran/version-checker-cli
+[coveralls-url]: https://coveralls.io/r/nghiattran/version-checker-clitran/version-checker-cli
