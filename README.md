@@ -19,7 +19,7 @@ $ vc check --local
 $ vc check -l
 ```
 
-![image](./local.png =100x20)
+![image](./local.png)
 
 ```
 // Check all global packages
@@ -28,7 +28,7 @@ $ vc check --global
 $ vc check -g
 ```
 
-![image](./global.png =100x20)
+![image](./global.png)
 
 ```
 // Check all packages in prefix path
@@ -37,7 +37,7 @@ $ vc check --prefix
 $ vc check -p
 ```
 
-![image](./prefix.png =100x20)
+![image](./prefix.png)
 
 #### Update packages
 
@@ -87,4 +87,4 @@ MIT © [NghiaTTran]()
 [daviddm-image]: https://david-dm.org/nghiattran/version-checker-cli.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/nghiattran/version-checker-cli
 [coveralls-image]: https://coveralls.io/repos/nghiattran/version-checker-cli/badge.svg
-[coveralls-url]: https://coveralls.io/r/nghiattran/version-checker-cli
+[coveralls-url]: https://coveralls.io/r/nghiattran/version-checker-clitran/version-checker-cli
