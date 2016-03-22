@@ -53,7 +53,7 @@ $ vc update --global
 $ vc update -g
 ```
 
-## Options
+## Options:
 
 ```
 $ vc -h
